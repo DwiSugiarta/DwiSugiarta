@@ -1,0 +1,116 @@
+/*  */
+body {
+    font-family: Helvetica;
+}
+.box-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: normal;
+    margin: 50px;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+}
+
+.box1{
+    align-items: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    padding: 25px;
+    border: 15px solid beige;
+}
+
+/* style untuk nama */
+.nama{
+    font-size: 26px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.box2 {
+    padding-top: 25px;
+        
+}
+
+
+.bio{
+    border: 2px solid black;
+    width: 900px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px bisque;
+}
+
+
+.project {
+           
+        border: 2px solid black;
+        width: 900px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px green;
+
+}
+
+/* .proj-detil :hover{
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px solid blue;
+} */
+
+.passion{
+
+        border: 2px solid black;
+        width: 900px;
+        margin: 10px;
+        padding-top: 10px;
+        padding-left: 25px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px bisque;
+    
+}
+
+
+.proj-detil{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px bisque;
+    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start;
+    justify-items: normal;
+    align-items: flex-start; */
+    padding-left: 25px;
+
+}
+
+.proj {
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    
+}
+
+.nameproj {
+
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.social img{
+    height: 50px;
+    width: 50px;
+}
